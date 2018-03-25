@@ -1,0 +1,10 @@
+body { padding-top: 50px; }
+.bank { margin-top: 40px; }
+.fl { float: left; }
+
+
+#carousel-example-generic { height:600px;}
+#carousel-example-generic .carousel-inner img { height:600px; width:100%; }
+
+.tab-pane p, .live_text p, .music_text p { text-indent: 30px; line-height: 28px;}
+

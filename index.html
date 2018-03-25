@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>my_website</title>
+	<link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./styles/base.css">
+</head>
+<body>
+	<!-- /导航条 -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+      	<span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">首页<span class="sr-only">(current)</span></a></li>
+        <li><a href="#study">学习</a></li>
+        <li><a href="#live">生活</a></li>
+        <li><a href="#food">美食</a></li>
+        <li><a href="#movie">电影</a></li>
+        <li><a href="#music">音乐</a></li>
+        <li>
+        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于我们<span class="caret"></span></a>
+        	<ul class="dropdown-menu">
+        		<li><a href="#">计划制定</a></li>
+        		<li><a href="#">生活体验</a></li>
+        		<li><a href="#">放松心情</a></li>
+        	</ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+        	<a href="#" data-toggle="modal" data-target="#myreg">注册</a>
+        </li>
+        <li>
+            <a href="#" data-toggle="modal" data-target="#mylogin">登陆</a>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
+
+ <!-- 轮播 -->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="./images/lb1.png" alt="live-1">
+    </div>
+    <div class="item">
+      <img src="./images/lb2.png" alt="live-2">
+    </div>
+    <div class="item">
+      <img src="./images/lb3.png" alt="live-3">
+    </div>
+    <div class="item">
+      <img src="./images/lb4.png" alt="live-4">
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!-- 学习 -->
+<div class="container bank" id="study">
+	<div class="row">
+	  <div class="col-xs-12 col-sm-4 col-md-3">
+	  	<ul class="nav nav-pills nav-stacked">
+		  <li role="presentation" class="active"><a data-toggle="tab" href="#learn1">花香烟火，一沓沓</a></li>
+		  <li role="presentation"><a data-toggle="tab" href="#learn2">珍惜每一份缘分</a></li>
+		  <li role="presentation"><a data-toggle="tab" href="#learn3">心思煮酒，醉了谁</a></li>
+		  <li role="presentation"><a data-toggle="tab" href="#learn4">年少有你</a></li>
+		</ul>
+	  </div>
+	  <div class="col-xs-12 col-sm-8 col-md-9 tab-content">
+	  	<div id="learn1" role="tabpanel" class="active tab-pane">
+		  	<h3 class="text-center">花香烟火，一沓沓</h3>
+		  	<h6 class="text-center">来源:原创投稿  作者:落梅雪舞</h6>
+		  	<p>叠几行落叶随风的小字，停泊指尖，于心的宁静中，藏一掬思念，轻轻落凡尘。这点滴的心思，汇聚在无声的雨里，捎去遥远的梦想，寻思着，这花香烟火，一沓沓，恰好可以，恰好能够，落入相逢的城池。</p>
+	　　    <p>总想着，即便是散落天涯的尘埃，也能挥着隐形的翅膀，如童话故事那般，随缘晾晒，把盏岁月。风飞舞流年窗台，挺暖地，在装满阳光的细碎往事中，掀开喜爱的页脚，于最美的时光，流泻厚实的线条，写意几笔，诗行几句，小日子里的小心情，挺好的！</p>　
+	　　   <p>一粒烟火，一沓花香，几步清影，几度夕阳红，安心地，在一方种满欢喜的小院子，心无杂念，等黎明的曙光，等未曾谋面的缘份，于遥远时空中，踏月而来。只是简单着，再简单的，等一朵花，开了；待一滴细雨，醉了，自由自在于一抹清风徐来之时，数一枚枚心事，打开一叠一叠的似水年华，让生命入住烟火。</p>
+	　　  <p>向来喜欢浅淡的颜色，小巧玲珑的植物，略有年代的物件，就如一直专注一个字，一句话，一沓又一沓的花香，沾着一点烟火的味道，有些清明，有些温润，轻轻微微惠临身旁。带着那么一点的忧思，合着小小的愿望，组合一方，只是恰好入了心情，醉了心意，而已。</p>
+	　　  <p>如此美好在，种下的花香绿植里，自行诗意抽花，或许一直未曾花开，只是绿意盎然了，一方院子，一窗台阳光，也挺好。在灯火阑珊处，为夕阳谱写了，一卷春生的愿望；为平凡的生活，点缀了一响欢颜，一道风景，专属着一种味道，让日子生香。</p>
+	    </div>
+	    <div id="learn2" role="tabpanel" class="tab-pane">
+		  	<h3 class="text-center">珍惜每一份缘分，呵护每一份情远</h3>
+		  	<h6 class="text-center">来源:原创投稿  作者: ≈。彩虹</h6>
+            <p>岁月静好，浅笑安然，温柔如水，相知相守，水一样的纯净，花一般的香艳，丝丝缕缕，萦绕在眉间；深情如柔，云一样的轻柔，雾一般的神秘，缠缠绵绵，驻守在心底。爱，不要多么浪漫，只要实实在在的疼惜；更无所谓情调，只要心心念念的懂得。爱在相守，爱在岁月。爱，无从理解，只能体会；没有试探，只有懂得。轻握一份懂得，静守一份安然，倾心着，珍惜着，淡而欢，美而暖！一些牵念，远隔千里，温暖也会藏于心间；带着满足，幸福原来从不遥远。爱，是用一颗心去感知另一颗心，冷与暖间，诠释爱的意义；爱，是用灵魂去厚重另一个灵魂，浓与淡处，完整你的人生。爱，是守护着一份温暖，是受累时，懂得心疼，对爱人，迁就有多少，就爱了有多少。爱，是呵护着一份真情，是委屈时，给以安慰。爱你有多少原谅，情就有多少温暖。缘份需要把握，更要懂得珍惜，珍惜每一份缘分，呵护每一份情远.</p>
+            <p>岁月慢慢情在流，时间轻轻爱在走，始终相信，这世上，与谁相逢，与谁相知，都是缘份，总有一个人，不早不晚的路过，在岁月的素笺上，用深情落款，为你书写生命冷暖，书写光阴情长，知道爱的温香，同行几人爱，随风情犹在，何处觅知音，多情人自来。我心似君心，别让等待情，等到无望；别让想念的人，想到不想。人生能相遇，已是不易；心灵若相知，更要珍惜。若心里有你，总会主动找你；若心里没你，就会自动忽略你。别拿尊严，去追求一个不爱你的人；别拿时间，去苦等一份不属于你的情。爱，要爱的值得；放，要放的洒脱。别再拿别人的忙与累，做自欺欺人的安慰；别再把别人的无所谓，让自己执着的那么累。走错了路，要记得回头；爱错了人，要懂得放手。也总是相信，时间的深处，依然住着我的欢喜，即便不在眼里，却停留在心上，你来或不来，我依然，风和日丽晴温暖，等你在红尘深处，梦你在爱的心中。</p>
+		</div>
+		<div id="learn3" role="tabpanel" class="tab-pane">
+		  	<h3 class="text-center">心思煮酒，醉了谁</h3>
+		  	<h6 class="text-center">来源:原创投稿  作者:落梅雪舞</h6>
+            <p>现如今，文字控的味道，越来越浓，一瞥一捺，拼写一掬欢喜，唐诗宋词，平平仄仄，运用手心里的温柔，笔画一纸又一纸的字里行间，每一段，每一句，字字珠玑润泽心声，吐露一卷人生的感言，也算是一壶意境的酒。悠悠我心，情怀一通诗词古韵，细细碎碎的心思，漪涟风光无限，不醉都难！</p>
+            <p>心思煮酒，点人生，看生活，自醉间，左右环顾岁月，轻轻地走过，梳理了细腻的柔情，不语不言，秘而不宣，心有灵犀，其间的美好，是似锦似画，又如花。游走生活与梦幻，滑落一纸悠悠香息，盈盈一捧雪花于双眸，于掌心，纯纯粹粹地捻起，绽放于冬阳下，让其化作一朵，最美的太阳花，惟愿更多的懂得。</p>
+            <p>如果，假如有如果，那重来的彩排，是否会演绎的完美？让折叠的心思煮酒，醇香四溢着，慢慢地静候，等寻落叶归根。心思着，着彩的意想，会不经意走来，幻化成风，便是若即若离，却可拼接成句，我在一句里煮雨，微笑着醉去，老去。</p> 
+            <p>借念煮酒，扑捉美好，和感动了的瞬间，醉了住进的风，紧跟进退的方向，一程程把盏岁月，把念言欢，思量着，斟酌着，问候一窗人生的路口！</p>
+		</div>
+		<div id="learn4" role="tabpanel" class="tab-pane">
+		  	<h3 class="text-center">年少有你</h3>
+		  	<h6 class="text-center">来源:原创投稿  作者:黎小雪</h6>
+            <p>生命需要沉淀才更加安稳，生活需要梳理才能看清脉络。静静的品读心音，倾听，时光留下的絮语……真诚的感谢那些曾经帮助过我们的人，感恩生活的惠赠，原谅那些伤害与错过。收藏源自心灵的体会和感悟，宠辱不惊，你会发现，生命因爱而博大，因芬芳而美丽，因给予而厚重。</p>
+            <p>人生就是一种修行，在修行的过程中，我们要不断反思，取长补短，循序渐进。懂得知足，知福，知恩。春有百花秋望月，夏有凉风冬听雪。花开花落都是情，月缺月圆都是景。只要我们心存希望，以一颗慈悲之心善待一切，我们心灵的天空就会是晴朗的，我们的生活就会充满阳光。</p>
+            <p>岁月如歌，声起声落。我们从懵懂无知，到成熟从容，慢慢沉淀出一颗纯净的心灵；时光如织，风雨中前行，阳光中奔跑，渐渐历练成一个坚强的灵魂。书上说，每一个不曾起舞的日子，都是对生命的辜负。每一处花香，每一个明媚的日子，都是生活给予我们最好的礼物。</p>
+            <p>在最美的年华里，拥有最好的人生。即便繁华落幕，也不留遗憾，你不用关心失去多少，只要知道自己还拥有什么就好。不管生活曾经给过你多少，放下即是心安，失去便是收获。</p>
+		</div>
+
+	  </div>
+	</div>
+</div>
+
+<!-- 生活 -->
+<div class="container bank" id="live">
+	<div class="panel panel-danger">
+	  <div class="panel-heading">
+	    <h3 class="panel-title">生活</h3>
+	  </div>
+	  <div class="panel-body">
+	    
+	    <img src="./images/live1.png" alt="live" align="left" width="50%" hspace="15" vspace="15" class="img-circle img-responsive">
+	    
+	    <div class="live_text">
+	    	<p>人生犹似一盘无解玲珑棋，与其苦苦思索无解的结局，倒不如好好享受这“下棋”中的快乐。虽深知人生如棋，一着不慎，全盘皆输。是的，人生如棋局，总是充满着变数，人生这场棋，有着太多的未知性，我们只能尽量地走好每一小步，在扑朔迷离中，找寻着希望和生机。或许前一秒你还处于山重水复疑无路的状态，转而后一秒自然而然就迎来柳暗花明又一村的境界，这便是人生棋局的魅力。话语里，本无多大玄机，只觉得，踏踏实实地经营人生，便已经是快乐无限了，不忧昨日，也不期明日，只是安静地充实着今日，潇洒地过着最为真实的自己，已然幸福满满。</p>
+
+	    	<p>古希腊诗人荷马曾说过：“过去的事已经过去，过去的事无法弥补。”泰戈尔在《飞鸟集》中这样写道：“只管走过去，不要逗留着去采了花朵来保存，因为一路上，花朵也会继续开放的。”的确，昨日的阳光不再美，昨日的风雨不再大，昨日的光景也移不到今日的画册，不念过去，不畏将来，自己的人生终是自己做主，纵使是风雨阳光也要潇潇洒洒走一回。</p>
+
+	    	<p>每一天，凡来尘往，只道寻常。情未老，梦如旧，纵然生活很平凡，也要内心淡雅。柴米油盐酱醋茶的日子也会过得如琴棋书画诗酒花般典雅，只要你内心宁静安然，就连手中的锅碗瓢盆也能够碰撞出诗意的格调。每个人的生活都是五味杂陈的组合，正如咸有咸的妙，淡有淡的美，五味杂陈里，丰盈的终是自己最为纯粹的灵魂，丰盈的终是自己那颗热爱生命，热爱生活的心。以真心换来的幸福感受也是最为牢固的，就像患难之中才能见真情，用真心换来的幸福体验恰如涓涓流水，无声无息里滋润着柔婉的心灵。归去来兮，尘埃落定，日子这般美好，而人最是安然，择一处净土，辟一方诗意，修身或是修心，写文或是听曲，也都是不错的选择。我只愿岁月静好，时光如旧，我只愿珍惜幸福美好，莫负今朝。</p>
+
+	    </div>
+	  </div>
+	</div>
+</div>
+
+<!-- 美食 -->
+
+<div class="container bank" id="food">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#western" aria-controls="western" role="tab" data-toggle="tab">西餐</a></li>
+    <li role="presentation"><a href="#Chinese" aria-controls="Chinese" role="tab" data-toggle="tab">中餐</a></li>
+    <li role="presentation"><a href="#fruit" aria-controls="fruit" role="tab" data-toggle="tab">水果</a></li>
+    <li role="presentation"><a href="#dessert" aria-controls="dessert" role="tab" data-toggle="tab">甜点</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="western">
+    	<div class="row bank">
+		  <div class="col-md-4 col-xs-6">
+		  	<img class="img-responsive img-circle" src="./images/westerm1.png" alt="western1" width="100%" align="left">
+		  	<h3 class="text-center">pisa</h3>
+
+		  </div>
+		  <div class="col-md-4 col-xs-6">
+		  	<img class="img-responsive img-rounded" src="./images/westerm2.png" alt="western2" width="100%" align="left">
+		  	<h3 class="text-center">经典牛排</h3>
+		  </div>
+		  <div class="col-md-4 col-xs-6">
+		  	<img class="img-responsive img-thumbnail" src="./images/westerm3.png" alt="western3" width="100%" align="left">
+		  	<h3 class="text-center">韩国年糕</h3>
+		  </div>
+		</div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Chinese">
+    	<div class="row bank">
+		  <div class="col-md-4 col-xs-6">
+		  	<img class="img-responsive img-thumbnail" src="./images/Chinese1.png" alt="Chinese1" width="100%" align="left">
+		  	<h3 class="text-center">麻辣小龙虾</h3>
+		  </div>
+		  <div class="col-md-4 col-xs-6">
+		  	<img class="img-responsive img-rounded" src="./images/Chinese2.png" alt="Chinese2" width="100%" align="left">
+		  	<h3 class="text-center">螃蟹大餐</h3>
+		  </div>
+		  <div class="col-md-4 col-xs-6">
+		  	<img class="img-responsive img-circle" src="./images/Chinese3.png" alt="Chinese3" width="100%"  align="left">
+		  	<h3 class="text-center">清真鱼</h3>
+		  </div>
+		</div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="fruit">
+    	<div class="row bank">
+		  <div class="col-md-4 col-xs-6">
+		  	<img class="img-responsive img-rounded" src="./images/fruit1.png" alt="fruit1" width="100%" align="left">
+		  	<h3 class="text-center">水果铺</h3>
+		  </div>
+		  <div class="col-md-4 col-xs-6">
+		  	<img class="img-responsive img-thumbnail" src="./images/fruit2.png" alt="fruit1" width="100%" align="left">
+		  	<h3 class="text-center">柠檬汇</h3>
+		  </div>
+		  <div class="col-md-4 col-xs-6">
+		  	<img class="img-responsive img-circle" src="./images/fruit3.png" alt="fruit3" width="100%" align="left">
+		  	<h3 class="text-center">芒果汇</h3>
+		  </div>
+		</div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="dessert">
+    	<div class="row bank">
+		  <div class="col-md-4 col-xs-6">
+		  	<img class="img-responsive img-rounded" src="./images/dessert1.png" alt="dessert1" width="100%" align="left">
+		  	<h3 class="text-center">甜甜圈</h3>
+		  </div>
+		  <div class="col-md-4 col-xs-6">
+		  	<img class="img-responsive img-circle" src="./images/dessert2.png" alt="dessert2" width="100%" align="left">
+		  	<h3 class="text-center">马龙</h3>
+		  </div>
+		  <div class="col-md-4 col-xs-6">
+		  	<img class="img-responsive img-thumbnail" src="./images/dessert3.png" alt="dessert3" width="100%" align="left">
+		  	<h3 class="text-center">牛奶蛋糕</h3>
+		  </div>
+		</div>
+    </div>
+  </div>
+
+</div>
+
+   <!-- 电影 -->
+<div class="container bank" id="movie">
+	<h3>电影节</h3>
+	<center><video width="80%" src="./images/1.mp4" poster="./images/movie1.png" preload="none" controls="controls" >您的浏览器不支持audio标签</video></center>
+    <p></p>
+</div>
+
+<!-- 音乐 -->
+<div class="container bank" id="music">
+	<h3>音乐节</h3>
+	<div>    
+	    <img width="450" src="./images/music1.png" alt="music" align="left" vspace="15" hspace="15" class="img-responsive">
+	  <div class="music_text">
+	    <h3>青春修炼手册</h3>
+	      
+	      <p>青春修炼手册》MV于2014年8月18日正式发布。在该MV中，TFBOYS成员王俊凯、王源、易烊千玺三位成员扮演三位转学生，与酷炫的超级英雄同学们一起上课、活动，在与超人们相处的日子中，超人们乱用自己的超能力把教室里的蝴蝶都弄死了，TFBOYS扮演的三位转学生利用自己的超能力使蝴蝶复活，也获得了超人同学们的一致好评，并且最后大家一起合力使用超能力救下了王源所扮演的转学生</p>
+          
+          <audio src="./images/1.mp3" controls>您的浏览器不支持audio标签</audio>
+
+          <h4>歌词：</h4>
+
+            <p>跟着我左手
+
+			右手一个慢动作
+
+			右手左手慢动作重播
+
+			这首歌给你快乐
+
+			你有没有爱上我
+
+			跟着我鼻子
+
+			眼睛动一动耳朵
+
+			装乖耍帅换不停风格
+
+			青春有太多
+
+			未知的猜测
+
+			成长的烦恼算什么
+
+			皮鞋擦亮换上西装
+
+			佩戴上一克拉的梦想
+
+			我的勇敢充满电量
+
+			昂首到达每一个地方
+
+			这世界的太阳
+
+			因为自信才能把我照亮
+
+			这舞台的中央
+
+			有我才闪亮
+
+			有我才能发着光
+
+			跟着我左手右手
+
+			一个慢动作
+
+			右手左手慢动作重播
+
+			这首歌给你快乐
+
+			你有没有爱上我
+
+			跟着我鼻子眼睛
+
+			动一动耳朵
+
+			装乖耍帅换不停风格
+
+			青春有太多未知的猜测
+
+			成长的烦恼算什么
+
+			经常会想长大多好
+
+			有些事情却只能想象
+
+			想说就说想做就做
+
+			为了明天的自己鼓掌
+
+			这世界的太阳
+
+			因为自信才能把我照亮
+
+			这舞台的中央
+
+			有我才闪亮
+
+			有我才能发着光
+
+			跟着我左手右手
+
+			一个慢动作
+
+			右手左手慢动作重播
+
+			这首歌给你快乐
+
+			你有没有爱上我
+
+			跟着我鼻子眼睛
+
+			动一动耳朵
+
+			装乖耍帅换不停风格
+
+			青春有太多未知的猜测
+
+			成长的烦恼算什么
+
+			向明天对不起
+
+			向前冲不客气
+
+			一路有你充满斗志无限动力
+		 </p>
+	  </div>
+	</div>
+</div>
+
+
+<!-- footer -->
+<div class="container-fluid bank">
+	<div class="panel panel-default">
+	  <div class="panel-footer">
+	    <p class="text-center">Designed and built with all the love in the world by @mdo and @fat. Maintained by the core team with the help of our contributors.</p>
+
+        <p class="text-center">本项目源码受 MIT开源协议保护，文档受 CC BY 3.0 开源协议保护。</p>
+
+        <p class="text-center">本文用bootstrap@3.3.7制作而成</p>
+	  </div>
+	</div>
+</div>
+
+    <!-- 注册模态框 -->
+<div class="modal fade" id="myreg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">用户注册</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+		  <div class="form-group">
+		    <label for="exampleInputEmail1">用户名：</label>
+		    <input type="text" class="form-control input-lg"  placeholder="Username">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputPassword1">密码：</label>
+		    <input type="password" class="form-control input-lg" id="exampleInputPassword1" placeholder="Password">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputPassword1">确认密码：</label>
+		    <input type="password" class="form-control input-lg" id="exampleInputPassword1" placeholder="Password">
+		  </div>
+		  <button type="submit" class="btn btn-success btn-lg btn-block">立即注册</button>
+		</form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 登陆模态框 -->
+<div class="modal fade" id="mylogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">用户登陆</h4>
+      </div>
+      <div class="modal-body">
+      	<form>
+		  <div class="form-group">
+		    <label for="exampleInputEmail1">用户名：</label>
+		    <input type="text" class="form-control input-lg" placeholder="Username">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputPassword1">密码：</label>
+		    <input type="password" class="form-control input-lg" id="exampleInputPassword1" placeholder="Password">
+		  </div>
+		  <div class="checkbox">
+		    <label>
+		      <input type="checkbox">记住密码
+		    </label>
+		  </div>
+		  <button type="submit" class="btn btn-success btn-lg btn-block">登陆</button>
+		</form>        
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="./dist/js/jquery.min.js"></script>
+	<script src="./dist/js/bootstrap.min.js"></script>
+</body>
+</html>
